@@ -1,0 +1,23 @@
+<div class="clearfix mxn2">
+  <div class="col sm-col-9 px2">
+    <h3 class="mb2">About me</h3>
+    <p>
+      My name is Dipak Pawar. I am a simple guy and always strive to learn new things.I am very enthusistic about open source.
+      <br>
+      I completed my bachelors degree in Electronic & Telecommunication from the Pune University.
+      <br>
+      Currently, I am working in <a href="http://redhat.com" target="_blank">Red Hat India</a> and my day to day job involves development of testing tools which help developers in rapidly building containers based applications.
+    </p>
+    <ul class="right list-reset">
+      {% for nav_item in site.nav.main %}
+        <li class="inline-block m0">
+          <a href="{{ nav_item[1] }}" class="button button-transparent py6 h6 nav-button caps{% if page.nav_item == nav_item[0] %} link-color{% endif %}">{{ nav_item[0] }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="col sm-col-3 px2">
+    <h3 class="mb2">Contact</h3>
+    {% include contact.html %}
+  </div>
+</div>

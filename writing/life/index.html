@@ -1,0 +1,16 @@
+---
+layout: default
+title: "Dipak Pawar: Writing about Life"
+nav_item: writing
+nav_item_writing: life
+header_title: Popular posts
+include_header: writing_header.html
+include_comments:
+  count: true
+---
+
+{% include writing-nav.html %}
+
+{% for post in site.tags.life %}
+  {% include post-outline.html post=post exclude_divider=forloop.last %}
+{% endfor %}

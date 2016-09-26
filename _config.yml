@@ -1,0 +1,72 @@
+# Website settings
+baseurl: "/"
+#url: http://github.com/dipak-pawar/dipak-pawar.github.io
+url: localhost 
+
+# Internal nav
+nav:
+  main:
+    writing: "/writing"
+  writing:
+    all: "/writing"
+    popular: "/writing/popular"
+    life: "/writing/life"
+    tags: "/writing/tags"
+
+# Bio settings
+name: Dipak Pawar
+description: "Self-motivated Software Engineer with hands-on experience in Ruby on Rails and has the ability to work independently."
+thumbnail_path: "dipak-medium.jpg"
+website_repo_url: "https://github.com/dipak-pawar/dipak-pawar.github.io"
+
+# URLs
+contact_urls:
+  twitter:
+    url: "https://twitter.com/dipakpawar231"
+    label: "Twitter"
+    icon: "twitter-square"
+    username: "@dipakpawar231"
+  #linkedin:
+   # url: "https://www.linkedin.com/in/"
+   # label: "LinkedIn"
+   # icon: "linkedin-square"
+  #facebook:
+   # url: "https://www.facebook.com/"
+   # label: "Facebook"
+   # icon: "facebook-square"
+  # google:
+   # url: "https://plus.google.com/+/"
+   # label: "Google+"
+   # icon: "google-plus-square"
+  #slideshare:
+   # url: "https://www.slideshare.net/randomaccessman"
+    #label: "SlideShare"
+    #icon: "slideshare"
+  github:
+    url: "https://github.com/dipak-pawar/"
+    label: "GitHub"
+    icon: "github-square"
+  email:
+    url: "mailto:dipakpawar231@gmail.com"
+    label: "Email"
+    value: "dipakpawar231@gmail.com"
+    icon: "envelope-square"
+
+# Jekyll build settings
+paginate: 10
+paginate_path: "/writing/page:num"
+permalink: "/writing/:year/:month/:day/:title/"
+sass:
+  sass_dir: "/assets/css"
+  style: :compressed
+highlighter: rouge
+timezone: 'Asia/Kolkata'
+markdown: kramdown
+
+# Plugins (GitHub Pages only support a few)
+gems:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-gist
+  - jemoji
