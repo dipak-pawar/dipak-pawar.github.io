@@ -8,10 +8,12 @@ tags:
 thumbnail_path: blog/arquillian-logo.png
 ---
 **Arquillian Govenor**
-You can use Arquillian Governor to programmatically choose what test methods of your Arquillian tests you want to execute and what you want to be skipped by putting your custom annotations on the test methods.
+
+You can use it to programmatically choose what test methods of your Arquillian tests you want to execute and what you want to be skipped by putting your custom annotations on the test methods.
 
 **Arquillian Recorder**
-Arquillian Recorder gives neat reports for your arquillian tests in different format i.e. JSON, HTML, XML, Asciidoctor.
+
+It gives neat reports for your arquillian tests in different format i.e. JSON, HTML, XML, Asciidoctor.
 
 Now How to get properties like Issue Id, Force Value & Environment detectors used in Arquillian governor to programmatically choose execution of your method?
 
