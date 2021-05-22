@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Dipak Pawar</title>
+    <link>https://dipak.pawar.github.io/</link>
+    <description>Recent content on Dipak Pawar</description>
+    <image>
+      <url>https://dipak.pawar.github.io/papermod-cover.png</url>
+      <link>https://dipak.pawar.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 22 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dipak.pawar.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sparse File</title>
+      <link>https://dipak.pawar.github.io/posts/my-first-post/</link>
+      <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dipak.pawar.github.io/posts/my-first-post/</guid>
+      <description>Update ME</description>
+    </item>
+    
+    
+    
+  </channel>
+</rss>

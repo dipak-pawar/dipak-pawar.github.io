@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Dipak Pawar</title>
+    <link>https://dipak.pawar.github.io/tags/</link>
+    <description>Recent content in Tags on Dipak Pawar</description>
+    <image>
+      <url>https://dipak.pawar.github.io/papermod-cover.png</url>
+      <link>https://dipak.pawar.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 22 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dipak.pawar.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>linux</title>
+      <link>https://dipak.pawar.github.io/tags/linux/</link>
+      <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dipak.pawar.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>storage</title>
+      <link>https://dipak.pawar.github.io/tags/storage/</link>
+      <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dipak.pawar.github.io/tags/storage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TIL</title>
+      <link>https://dipak.pawar.github.io/tags/til/</link>
+      <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dipak.pawar.github.io/tags/til/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
