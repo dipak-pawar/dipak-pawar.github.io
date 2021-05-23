@@ -32,7 +32,7 @@ jobs:
           hugo-version: 'latest'
 
       - name: Build
-        run: hugo --buildDrafts
+        run: hugo --buildDrafts --gc --verbose --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
