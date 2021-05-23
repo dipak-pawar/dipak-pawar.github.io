@@ -32,20 +32,6 @@ languages:
 #                  url: posts
 #                - name: Tags
 #                  url: tags
-        menu:
-            main:
-                - name: About
-                  url: about
-                  weight: 5
-                - name: Search
-                  url: search
-                  weight: 10
-                - name: Archive
-                  url: archives
-                  weight: 5
-                - name: Tags
-                  url: tags
-                  weight: 10
 
 outputs:
     home:
@@ -178,3 +164,22 @@ services:
         disableInlineCSS: true
     twitter:
         disableInlineCSS: true
+
+menu:
+    main:
+        - identifier: about
+          name: About
+          url: /about/
+          weight: 10
+        - identifier: search
+          name: Search
+          url: /search/
+          weight: 20
+        - identifier: Archive
+          name: archives
+          url: /archives/
+          weight: 30
+        - identifier: tags
+          name: Tags
+          url: /tags/
+          weight: 10
