@@ -55,7 +55,7 @@ params:
     # disableSpecial1stPost: true
     displayFullLangName: false
     ShowPostNavLinks: true
-    ShowBreadCrumbs: true
+    ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     disableSpecial1stPost: false
     disableScrollToTop: false
