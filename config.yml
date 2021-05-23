@@ -43,35 +43,18 @@ params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
     author: Dipak Pawar
-    # author: ["Me", "You"] # multiple authors
-
     defaultTheme: auto
-    mainSections:
-        - posts
     # disableThemeToggle: true
     ShowShareButtons: false
     ShowReadingTime: true
     # disableSpecial1stPost: true
     displayFullLangName: false
-    ShowPostNavLinks: true
+    ShowPostNavLinks: false
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
     ShowToc: true
     # comments: false
     images: ["papermod-cover.png"]
-
-    #    profileMode:
-#        enabled: false
-#        title: PaperMod
-#        imageUrl: "#"
-#        imageTitle: my image
-#        # imageWidth: 120
-#        # imageHeight: 120
-#        buttons:
-#            - name: Archives
-#              url: archives
-#            - name: Tags
-#              url: tags
 
     homeInfoParams:
         Title: "Dipak Pawar"
@@ -98,21 +81,6 @@ params:
 
     assets:
         disableFingerprinting: true
-    # analytics:
-    #     google:
-    #         SiteVerificationTag: "XYZabc"
-
-    # assets:
-    #     favicon: "<link / abs url>"
-    #     favicon16x16: "<link / abs url>"
-    #     favicon32x32: "<link / abs url>"
-    #     apple_touch_icon: "<link / abs url>"
-    #     safari_pinned_tab: "<link / abs url>"
-
-    # cover:
-    #     hidden: true # hide everywhere but not in structured data
-    #     hiddenInList: true # hide on list pages and home
-    #     hiddenInSingle: true # hide on single page
 
     fuseOpts:
         isCaseSensitive: false
@@ -182,4 +150,4 @@ menu:
         - identifier: tags
           name: Tags
           url: /tags/
-          weight: 10
+          weight: 40
