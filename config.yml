@@ -60,6 +60,8 @@ params:
     # author: ["Me", "You"] # multiple authors
 
     defaultTheme: auto
+    mainSections:
+        - posts
     # disableThemeToggle: true
     ShowShareButtons: false
     ShowReadingTime: true
