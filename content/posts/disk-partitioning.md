@@ -3,6 +3,8 @@ title: "Disk Partitioning"
 date: 2021-06-18T16:30:28+05:30
 draft: false
 tags: ["linux", "storage", "basics", "TIL"]
+ShowToc: true
+TocOpen: false
 ---
 
 ## What's Partition?
