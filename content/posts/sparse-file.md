@@ -90,4 +90,4 @@ Change: 2021-06-18 23:04:22.284011162 +0530
  Birth: -
 ```
 
-The the number of blocks now is 0 as the blocks with empty bytes were de-allocated. Note that size remains the same which logical size of file, not it's size on disk.
+The the number of blocks now is 0 as the blocks with empty bytes were de-allocated. Note that size remains the same which is logical size of file, not it's size on disk.
