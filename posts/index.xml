@@ -5,7 +5,7 @@
     <link>https://dipak-pawar.github.io/posts/</link>
     <description>Recent content in Posts on Dipak Pawar</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 22 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dipak-pawar.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Jun 2021 16:30:28 +0530</lastBuildDate><atom:link href="https://dipak-pawar.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sparse File</title>
       <link>https://dipak-pawar.github.io/posts/my-first-post/</link>
@@ -13,6 +13,17 @@
       
       <guid>https://dipak-pawar.github.io/posts/my-first-post/</guid>
       <description>Update ME</description>
+    </item>
+    
+    <item>
+      <title>Disk Partitioning</title>
+      <link>https://dipak-pawar.github.io/posts/disk-partitioning/</link>
+      <pubDate>Fri, 18 Jun 2021 16:30:28 +0530</pubDate>
+      
+      <guid>https://dipak-pawar.github.io/posts/disk-partitioning/</guid>
+      <description>What&amp;rsquo;s Partition? Disk Partitioning allows you to divide hard drive into multiple logical sections. There are several reasons why we do it:
+ Multi-boot OS Easier backup Different filesystems to be installed on different partitions Clear separation between operating system and user files  Partitioning Schemes MBR &amp;amp; GPT are two different schemes available to do partitions.
+MBR MBR supports maximum four primary partitions. On Linux, one can create more partitions having three primary &amp;amp; one extended partition which may contain multiple logical partitions.</description>
     </item>
     
   </channel>
