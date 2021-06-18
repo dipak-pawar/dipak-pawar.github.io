@@ -8,11 +8,13 @@
     <lastBuildDate>Fri, 18 Jun 2021 16:30:28 +0530</lastBuildDate><atom:link href="https://dipak-pawar.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sparse File</title>
-      <link>https://dipak-pawar.github.io/posts/my-first-post/</link>
+      <link>https://dipak-pawar.github.io/posts/sparse-file/</link>
       <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://dipak-pawar.github.io/posts/my-first-post/</guid>
-      <description>Update ME</description>
+      <guid>https://dipak-pawar.github.io/posts/sparse-file/</guid>
+      <description>Do you know that we can fake the size of file? Yes, you read it correctly. We can fake the size of file. In this article, will focus on sparse files &amp;amp; more details about it.
+What&amp;rsquo;s a sparse file? From Wikipedia:
+In computer science, a sparse file is a type of computer file that attempts to use file system space more efficiently when the file itself is partially empty. This is achieved by writing brief information (metadata) representing the empty blocks to disk instead of the actual &amp;ldquo;empty&amp;rdquo; space which makes up the block, using less disk space.</description>
     </item>
     
     <item>
